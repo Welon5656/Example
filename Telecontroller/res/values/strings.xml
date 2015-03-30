@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Telecontroller</string>
+    <string name="power">电源</string>
+    <string name="guide">导视</string>
+    <string name="program">节目</string>
+    <string name="vv">vv</string>
+    <string name="iTV">iTV</string>
+    <string name="home">主页</string>
+    <string name="information">信息</string>
+    <string name="back">返回</string>
+    <string name="exit">退出</string>
+    <string name="up">上一个节目</string>
+    <string name="down">下一个节目</string>
+    <string name="left">音量小</string>
+    <string name="right">音量大</string>
+    <string name="confirm">确认</string>
+    <string name="b_1">1</string>
+    <string name="b_2">2</string>
+    <string name="b_3">3</string>
+    <string name="b_4">4</string>
+    <string name="b_5">5</string>
+    <string name="b_6">6</string>
+    <string name="b_7">7</string>
+    <string name="b_8">8</string>
+    <string name="b_9">9</string>
+    <string name="b_0">0/空格</string>
+    <string name="b_10">*/屏显</string>
+    <string name="b_01">#/中英</string>
+
+</resources>

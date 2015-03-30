@@ -1,0 +1,247 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/power" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:shrinkColumns="0,1,2,3"
+        android:stretchColumns="0,1,2,3"
+        android:layout_below="@id/power" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/guide"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guide" />
+
+            <Button
+                android:id="@+id/program"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/program" />
+
+            <Button
+                android:id="@+id/vv"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vv" />
+
+            <Button
+                android:id="@+id/iTV"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iTV" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/home"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home" />
+
+            <Button
+                android:id="@+id/information"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/information" />
+
+            <Button
+                android:id="@+id/back"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back" />
+
+            <Button
+                android:id="@+id/exit"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exit" />
+        </TableRow>
+
+    </TableLayout>
+    
+    <Button 
+        android:id="@+id/up" 
+        android:layout_width="120dp" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/tableLayout1" 
+        android:layout_centerInParent="true"
+        android:text="@string/up" />
+    
+    <Button 
+        android:id="@+id/confirm" 
+        android:layout_width="120dp" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/up"
+        android:layout_alignLeft="@id/up"
+        android:text="@string/confirm" />
+    
+    <Button 
+        android:id="@+id/down" 
+        android:layout_width="120dp" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/confirm" 
+        android:layout_alignLeft="@id/confirm"
+        android:text="@string/down" />
+    
+   <Button
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/confirm"
+        android:layout_alignTop="@id/confirm"
+        android:text="@string/left" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/confirm"
+        android:layout_alignTop="@id/confirm"
+        android:text="@string/right" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:shrinkColumns="0,1,2"
+        android:stretchColumns="0,1,2"
+        android:layout_below="@id/down" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/b_1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_1" />
+
+            <Button
+                android:id="@+id/b_2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_2" />
+
+            <Button
+                android:id="@+id/b_3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/b_4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_4" />
+
+            <Button
+                android:id="@+id/b_5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_5" />
+
+            <Button
+                android:id="@+id/b_6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/b_7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_7" />
+
+            <Button
+                android:id="@+id/b_8"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_8" />
+
+            <Button
+                android:id="@+id/b_9"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/b_10"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_10" />
+
+            <Button
+                android:id="@+id/b_0"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_0" />
+
+            <Button
+                android:id="@+id/b_01"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_01" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
